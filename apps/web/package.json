@@ -1,0 +1,16 @@
+{
+  "name": "@lifegit-monorepo/web",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@lifegit-monorepo/components": "workspace:*",
+    "@lifegit-monorepo/core": "workspace:*"
+  }
+}
